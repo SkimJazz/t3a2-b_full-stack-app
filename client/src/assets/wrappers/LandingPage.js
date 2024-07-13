@@ -30,9 +30,9 @@ const Wrapper = styled.section`
         //background-image: url('../images/main.svg');
         //background-size: cover; 
         //background-position: center; 
-        position: relative; 
+        position: relative;
     }
- 
+    
     h1 {
         font-weight: 700;
         span {
