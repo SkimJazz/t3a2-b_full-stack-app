@@ -1,5 +1,5 @@
 // External imports
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 // Local imports
@@ -51,11 +51,11 @@ const Landing = () => {
                         to completion. Stay organized, save time, and focus on what you
                         do best - mastering your trade.
                     </p>
-                    <Link to='/signup' className='btn register-link'>
-                        Register
+                    <Link to='/signup' className='btn signup-link'>
+                        Sign Up / Demo
                     </Link>
                     <Link to='/login' className='btn'>
-                        Login / Demo User
+                        Login
                     </Link>
                 </div>
                 {/* <img> no longer need -> Ref handleResize in useEffect */}

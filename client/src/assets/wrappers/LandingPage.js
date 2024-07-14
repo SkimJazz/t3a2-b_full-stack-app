@@ -49,7 +49,7 @@ const Wrapper = styled.section`
     }
 
     /* Register button */
-    .register-link {
+    .signup-link {
         margin-right: 1rem;
     }
 
