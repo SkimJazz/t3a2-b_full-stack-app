@@ -16,3 +16,8 @@ export { default as Landing } from './Landing';
 export { default as Signup } from './Signup';
 export { default as Login } from './Login';
 export { default as Error } from './Error';
+export { default as UserProfile } from './UserProfile';
+export { default as NewJob } from './NewJob';
+export { default as Jobs } from './Jobs';
+export { default as EditJob } from './EditJob';
+export { default as Admin } from './Admin';

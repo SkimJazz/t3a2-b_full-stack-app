@@ -16,6 +16,10 @@ import {
     Login,
     DashboardLayout,
     Error,
+    NewJob,
+    Jobs,
+    UserProfile,
+    Admin,
 } from './pages';
 
 // createBrowserRouter => create router object.
@@ -40,6 +44,24 @@ const router = createBrowserRouter([
             {
                 path: 'dashboard',
                 element: <DashboardLayout />,
+                children: [
+                    {
+                        index: true, // userprofile API endpoint
+                        element: <UserProfile />,
+                    },
+                    {
+                        path: 'new-job' ,
+                        element: <NewJob />,
+                    },
+                    {
+                        path: 'all-jobs',
+                        element: <Jobs />,
+                    },
+                    {
+                        path: 'admin',
+                        element: <Admin />,
+                    },
+                ],
             },
         ],
     },
