@@ -19,5 +19,8 @@ export { default as Error } from './Error';
 export { default as UserProfile } from './UserProfile';
 export { default as NewJob } from './NewJob';
 export { default as Jobs } from './Jobs';
-export { default as EditJob } from './EditJob';
+
+// WARNING!!! comment out exports for empty files or index.js will not compile.
+// export { default as EditJob } from './EditJob';
+
 export { default as Admin } from './Admin';
