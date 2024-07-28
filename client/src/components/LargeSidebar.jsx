@@ -1,8 +1,10 @@
-import Wrapper from "../assets/wrappers/LargeSidebar.js";
+import Wrapper from '../assets/wrappers/LargeSidebar';
 
 const LargeSidebar = () => {
     return (
-        <Wrapper> Large Sidebar </Wrapper>
+        <Wrapper>
+            Large Sidebar
+        </Wrapper>
     );
 };
 
